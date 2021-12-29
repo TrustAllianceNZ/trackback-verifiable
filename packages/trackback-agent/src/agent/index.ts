@@ -8,6 +8,9 @@ export * from './account'
 export * from './enums'
 export * from './utils'
 
+/**
+ * Connector interface declaration
+ */
 export class TrackBackAgent implements ITrackBackAgent {
 
   procedure: IProcedure;
